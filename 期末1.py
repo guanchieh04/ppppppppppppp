@@ -66,7 +66,7 @@ if choice == choices[1] :                   ##'大台指期貨2024.12到期: 202
     df_original =pd.read_pickle('future_KBar_FXF.pkl')
     product_name = '金融期貨FXF'
 if choice == choices[2] :                              ##'小台指期貨2024.12到期: 2023.12 至 2024.4.11':
-    df_original = pd.read_pickle('台積電期貨CDF:2020.3.2至2025.4.14')
+    df_original = pd.read_pickle('future_KBar_CDF.pkl')
     product_name = '台積電期貨CDF'
 
 
